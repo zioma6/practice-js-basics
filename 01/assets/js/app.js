@@ -30,7 +30,7 @@ array.push(moduloResult)
 
 console.log(array)
 
-const newArray = array.filter(el => el > 20)
-
-console.log(newArray)
-
+const resultBigger20 = +array.filter(el => el > 20)
+const resultSmaller20 = (array.filter(el => el < 20))
+console.log(`Result Bigger then 20: ${resultBigger20}`)
+console.log(`Result Smaller then 20: ${resultSmaller20}`)
